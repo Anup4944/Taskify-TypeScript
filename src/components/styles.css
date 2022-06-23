@@ -38,3 +38,44 @@
 .inputSubmit:hover {
   background-color: #388ae2;
 }
+
+.toDoList {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.todoSingle {
+  display: flex;
+  width: 29.5%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+}
+
+.toDoText {
+  font-size: 20px;
+  flex: 1;
+}
+
+.icons {
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .input {
+    width: 95%;
+  }
+  .inputBox {
+    width: 95%;
+    flex-direction: column;
+  }
+  .todoSingle {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+}
